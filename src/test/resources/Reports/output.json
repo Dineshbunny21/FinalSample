@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User searching products required",
+        "description": "",
+        "id": "user-adding-products-to-amazon-cart;user-searching-products-required",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54987602700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on amazon product home page",
+            "match": {
+              "location": "Steplogin.user_is_on_amazon_product_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5501180701,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is searching for iphone",
+            "match": {
+              "location": "Steplogin.user_is_searching_for_iphone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24756459900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User adds product to cart",
+            "match": {
+              "location": "Steplogin.user_adds_product_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError:  mesaage \r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.step.Steplogin.user_goes_out_to_cart_information_and_enter_valid_information_for_checkout(Steplogin.java:67)\r\n\tat ✽.User goes out to cart information and enter valid information for checkout.(src/test/resources/Feature/loginaadac.feature:6)\r\n",
+              "duration": 1878964100,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User goes out to cart information and enter valid information for checkout.",
+            "match": {
+              "location": "Steplogin.user_goes_out_to_cart_information_and_enter_valid_information_for_checkout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15099,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User proceed to checkout",
+            "match": {
+              "location": "Steplogin.user_proceed_to_checkout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User adding products to amazon cart",
+    "description": "",
+    "id": "user-adding-products-to-amazon-cart",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/loginaadac.feature",
+    "tags": []
+  }
+]
