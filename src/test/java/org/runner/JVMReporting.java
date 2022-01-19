@@ -23,6 +23,7 @@ public class JVMReporting {
 		
 		ReportBuilder reportBuilder = new ReportBuilder(jsonfiles, configuration);
 		reportBuilder.generateReports();
+		System.out.println();
 	}
 
 }
